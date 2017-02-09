@@ -46,7 +46,6 @@
   .products{
     margin: 10px;
     position: relative;
-    float: left;
     width: 400px;
     height: 600px;
     box-sizing: border-box;
@@ -62,7 +61,7 @@
     position: absolute;
     margin: 0;
     padding-left: 0;
-    top: 40px;
+    top: 41px;
     bottom: 0;
     width: 100%;
     text-align: left;

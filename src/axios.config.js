@@ -4,4 +4,5 @@ let instance = axios.create({
   baseURL,
   timeout: 5000
 })
+console.log(instance)
 export default instance

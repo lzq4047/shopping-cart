@@ -1,5 +1,5 @@
 import Mock from 'mockjs'
-import {baseURL} from '../axios.js'
+import {baseURL} from './axios.config.js'
 
 Mock.mock(baseURL + '/api/getAllProducts', 'get', (() => {
   return Mock.mock({

@@ -4,10 +4,11 @@ import Vue from 'vue'
 import '../node_modules/font-awesome/css/font-awesome.min.css'
 import App from './App'
 
-import axios from 'axios'
-import store from 'store/store.js'
+// import axios from './axios.config.js'
+// import axios from 'axios'
+import store from './store/store.js'
 
-Vue.prototype.axios = axios
+// Vue.prototype.axios = axios
 /* eslint-disable no-new */
 new Vue({
   store,

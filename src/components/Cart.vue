@@ -99,6 +99,7 @@
     transform: translateY(-50%);
     text-shadow: 1px 3px #d8d;
     color: #d8d8d8;
+    text-align: center;
   }
   .total button{
     padding: 5px 10px;

@@ -1,5 +1,5 @@
-import axios from '../axios.js'
-import './mock.js'
+import axios from '../axios.config.js'
+import '../mock.js'
 
 export default {
   buyProducts: function (products, successCallback, failureCallback) {
